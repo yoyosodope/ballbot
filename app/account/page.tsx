@@ -1,0 +1,10 @@
+import AccountList from './AccountList'
+import styles from '../page.module.css'
+
+export default function Home() {
+    return (
+        <div className={styles.background}>
+            <AccountList/>
+        </div>
+    )
+  }
